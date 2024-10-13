@@ -99,8 +99,8 @@ body {
 .icon-opacity {
   position: absolute;
   z-index: 11;
-  top: 280px;
-  left: 20px;
+  top: 252px;
+  left: 27px;
 }
 .imagediv {
   z-index: 111;
@@ -138,3 +138,13 @@ body {
     position: absolute;
     right: -40px;
     bottom: 160px;}
+/* @media screen and (max-width:768px){
+
+  .icon-opacity{
+    position: absolute;
+    z-index: 11;
+    top: 280px;
+    left: 23px;
+  
+  }
+} */

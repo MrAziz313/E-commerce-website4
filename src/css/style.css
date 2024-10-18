@@ -148,3 +148,24 @@ body {
   
   }
 } */
+ .hover_img{
+  margin-left: 40px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+ }
+ .hover_img img{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgb(198, 196, 196);
+  transition: all ease-in-out .5s;
+ }
+ .hover_img img:hover{
+  width: 100%;
+
+ }
